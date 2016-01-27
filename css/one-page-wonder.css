@@ -3,6 +3,16 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ ul {
+    list-style: outside disc;
+    margin-left: 1em;
+    padding: 0;
+}
+ul li {
+    position: relative;
+    left: 1em;
+    padding-right: 1em;
+}​
 
 
 .featurette-divider {
