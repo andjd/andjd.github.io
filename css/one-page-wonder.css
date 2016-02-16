@@ -137,22 +137,24 @@ footer {
     }
 }
 
-@media(max-width:375px) {
+@media(max-width:720px) {
     .featurette-divider {
         margin: 10px 0;
     }
 
     .featurette-image {
+        float: none !important;
         max-width: 100%;
-    }
-
-    .featurette-image.pull-left {
-        margin-right: 0;
+        display:block;
+        margin: auto;
         margin-bottom: 10px;
+    }
+    .featurette-image.pull-left {
+        margin-right: auto;
     }
 
     .featurette-image.pull-right {
-        margin-bottom: 10px;
-        margin-left: 0;
+        margin-left: auto;
     }
+
 }
